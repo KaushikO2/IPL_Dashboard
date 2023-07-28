@@ -12,7 +12,7 @@ class MatchCard extends Component {
           src={competingTeamLogo}
           alt={`competing team ${competingTeam}`}
         />
-        <h1 className="match-card-name">{competingTeam}</h1>
+        <p className="match-card-name">{competingTeam}</p>
         <p className="match-card-result">{result}</p>
         <p className="match-status">{matchStatus}</p>
       </li>
